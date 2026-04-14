@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/Button';
-import { ProgressBar } from '@/components/ui/ProgressBar';
 import { useGame } from '@/context/GameContext';
 import { ROLES } from '@/data/roles';
 
@@ -134,7 +133,6 @@ function ProfileCard({
   profile,
   pct,
   score,
-  maxPossibleScore,
   correctCount,
   totalScenarios,
   roleLabel,
